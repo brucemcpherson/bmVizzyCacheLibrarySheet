@@ -1,0 +1,16 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "bmPreFiddler",
+      "libraryId": "13JUFGY18RHfjjuKmIRRfvmGlCYrEkEtN6uUm-iLUcxOUFRJD-WBX-tkR",
+      "version": "5"
+    }, {
+      "userSymbol": "bmVizzyCache",
+      "libraryId": "1SohIo0pSlXSt2SKNf3iX2ZcbzE_N0F4BocnKpGuaXgyxx1X6s1nDhjZK",
+      "version": "5"
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
