@@ -1,5 +1,5 @@
 # Google Apps Script Project: bmVizzyCacheLibrarySheet
-This repo (bmVizzyCacheLibrarySheet) was automatically updated on 2/21/2021, 12:44:52 PM by GasGit
+This repo (bmVizzyCacheLibrarySheet) was automatically updated on 31/03/2021, 15:19:05 by GasGit
 
 For more information on gasgit, see the [desktop liberation site](https://ramblings.mcpher.com/drive-sdk-and-github/migrategasgit/ "desktop liberation")
 
@@ -17,17 +17,21 @@ The shared link for [bmVizzyCacheLibrarySheet is here](https://script.google.com
 --- | --- 
 appsscript| json
 Code| server_js
+oneoff| server_js
 ### Directly referenced libraries
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
 bmPreFiddler| bmPreFiddler|13JUFGY18RHfjjuKmIRRfvmGlCYrEkEtN6uUm-iLUcxOUFRJD-WBX-tkR|5|no|[here](libraries/bmPreFiddler "library source")
 bmVizzyCache| bmVizzyCache|1SohIo0pSlXSt2SKNf3iX2ZcbzE_N0F4BocnKpGuaXgyxx1X6s1nDhjZK|6|no|[here](libraries/bmVizzyCache "library source")
+cGoa| cGoa|1v_l4xN3ICa0lAW315NQEzAHPSoNiFdWHsMEwj2qA5t9cgZ5VWci2Qxv2|36|no|[here](libraries/cGoa "library source")
 ### All dependencies and sub dependencies
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
 bmPreFiddler| bmPreFiddler|13JUFGY18RHfjjuKmIRRfvmGlCYrEkEtN6uUm-iLUcxOUFRJD-WBX-tkR|5|no|[here](libraries/bmPreFiddler "library source")
 bmFiddler| bmFiddler|13EWG4-lPrEf34itxQhAQ7b9JEbmCBfO8uE4Mhr99CHi3Pw65oxXtq-rU|4|no|[here](libraries/bmFiddler "library source")
 bmVizzyCache| bmVizzyCache|1SohIo0pSlXSt2SKNf3iX2ZcbzE_N0F4BocnKpGuaXgyxx1X6s1nDhjZK|6|no|[here](libraries/bmVizzyCache "library source")
+cGoa| cGoa|1v_l4xN3ICa0lAW315NQEzAHPSoNiFdWHsMEwj2qA5t9cgZ5VWci2Qxv2|36|no|[here](libraries/cGoa "library source")
+cUseful| cUseful|1EbLSESpiGkI3PYmJqWh3-rmLkYKAtCNPi1L2YCtMgo2Ut8xMThfJ41Ex|121|no|[here](libraries/cUseful "library source")
 ### Enabled Google Services
 no libraries discovered
 ### Scopes required
