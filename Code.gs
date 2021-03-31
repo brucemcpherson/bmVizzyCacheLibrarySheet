@@ -1,4 +1,34 @@
+// webhook for pubsub
+function doPost  (e)  {
+
+  // this should be all set up already
+  const goa = makeGoa()
+  if(!goa.hasToken()) throw new Error('no goa')
+  const {postData} = e || {};
+
+  // get messagedata - postdata going to be a series of bytes, but as base64
+  const body = postData && postData.getDataAsString()
+  const data = body && body.message && body.message.data
+  const pack = data && Utilities.newBlob(Utilities.base64Decode(data)).getDataAsString()
+  const work = pack && JSON.parse(pack)
+  console.log(work)
+
+  // mark as done - this should return a http response code of 200
+  return ContentService.createTextOutput('200 ok')
+
+}
+
+function doGet(e) {
+console.log(e)
+}
+
+const makeGoa = () => {
+  return cGoa.GoaApp.createGoa('scrvizpubsub',PropertiesService.getUserProperties()).execute()
+}
 function makeLibraries() {
+
+  // get service account
+
   // use this to interact with the sheet
   const fiddler = bmPreFiddler.PreFiddler().getFiddler({
     id: '1DlKpVVYCrCPNfRbGsz6N_K3oPTgdC9gQIKi0aNb42uI',
