@@ -17,6 +17,9 @@ function doPost  (e)  {
   return ContentService.createTextOutput('200 ok')
 
 }
+const libReport = () => {
+  console.log(bmPreFiddler.exportUsage())
+}
 
 function doGet(e) {
 console.log(e)
