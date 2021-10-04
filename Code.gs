@@ -76,6 +76,7 @@ function makeLibraries() {
     // pretty poor match here probably either because the repo is not called the same thing as the usersymbol, or it's just not found on github
     .map(f=> {
       const file = files.find(g=>f.id === g.fields.scriptId)
+
       const repo = repos.find(g=>f.userSymbols.indexOf(g.fields.name) !== -1 || (file && g.fields.id ===  file.fields.repositoryId))
       const owner = repo && owners.find(g=>g.fields.id===repo.fields.ownerId)
 
