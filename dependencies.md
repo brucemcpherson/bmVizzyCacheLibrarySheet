@@ -1,5 +1,5 @@
 # Google Apps Script Project: bmVizzyCacheLibrarySheet
-This repo (bmVizzyCacheLibrarySheet) was automatically updated on 5/30/2021, 11:49:45 AM by GasGit
+This repo (bmVizzyCacheLibrarySheet) was automatically updated on 10/4/2021, 5:37:22 PM by GasGit
 
 For more information on gasgit, see the [desktop liberation site](https://ramblings.mcpher.com/drive-sdk-and-github/migrategasgit/ "desktop liberation")
 
@@ -21,15 +21,16 @@ oneoff| server_js
 ### Directly referenced libraries
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-bmPreFiddler| bmPreFiddler|13JUFGY18RHfjjuKmIRRfvmGlCYrEkEtN6uUm-iLUcxOUFRJD-WBX-tkR|18|no|[here](libraries/bmPreFiddler "library source")
+bmPreFiddler| bmPreFiddler|13JUFGY18RHfjjuKmIRRfvmGlCYrEkEtN6uUm-iLUcxOUFRJD-WBX-tkR|21|no|[here](libraries/bmPreFiddler "library source")
 cGoa| cGoa|1v_l4xN3ICa0lAW315NQEzAHPSoNiFdWHsMEwj2qA5t9cgZ5VWci2Qxv2|36|no|[here](libraries/cGoa "library source")
 bmVizzyCache| bmVizzyCache|1SohIo0pSlXSt2SKNf3iX2ZcbzE_N0F4BocnKpGuaXgyxx1X6s1nDhjZK|6|no|[here](libraries/bmVizzyCache "library source")
 ### All dependencies and sub dependencies
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-bmPreFiddler| bmPreFiddler|13JUFGY18RHfjjuKmIRRfvmGlCYrEkEtN6uUm-iLUcxOUFRJD-WBX-tkR|18|no|[here](libraries/bmPreFiddler "library source")
-bmFiddler| bmFiddler|13EWG4-lPrEf34itxQhAQ7b9JEbmCBfO8uE4Mhr99CHi3Pw65oxXtq-rU|14|no|[here](libraries/bmFiddler "library source")
-bmLibraryReporter| bmLibraryReporter|1D_lWK-jU53wxMA2-NxSjiyu7Uze_GDDqBKTsQnCgPhyUmmSLv0bfTNPX|8|no|no
+bmPreFiddler| bmPreFiddler|13JUFGY18RHfjjuKmIRRfvmGlCYrEkEtN6uUm-iLUcxOUFRJD-WBX-tkR|21|no|[here](libraries/bmPreFiddler "library source")
+bmLibraryReporter| bmLibraryReporter|1D_lWK-jU53wxMA2-NxSjiyu7Uze_GDDqBKTsQnCgPhyUmmSLv0bfTNPX|8|no|[here](libraries/bmLibraryReporter "library source")
+bmLibraryTracking| bmLibraryTracking|1GIpX-loeYv2swfT2mcYCUvduAXtoYdzenzIYXt4M_1YLmlN7eMrO1h_P|3|no|[here](libraries/bmLibraryTracking "library source")
+bmFiddler| bmFiddler|13EWG4-lPrEf34itxQhAQ7b9JEbmCBfO8uE4Mhr99CHi3Pw65oxXtq-rU|17|no|[here](libraries/bmFiddler "library source")
 cGoa| cGoa|1v_l4xN3ICa0lAW315NQEzAHPSoNiFdWHsMEwj2qA5t9cgZ5VWci2Qxv2|36|no|[here](libraries/cGoa "library source")
 cUseful| cUseful|1EbLSESpiGkI3PYmJqWh3-rmLkYKAtCNPi1L2YCtMgo2Ut8xMThfJ41Ex|121|no|[here](libraries/cUseful "library source")
 bmVizzyCache| bmVizzyCache|1SohIo0pSlXSt2SKNf3iX2ZcbzE_N0F4BocnKpGuaXgyxx1X6s1nDhjZK|6|no|[here](libraries/bmVizzyCache "library source")
