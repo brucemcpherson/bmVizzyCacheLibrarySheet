@@ -53,7 +53,10 @@ function makeLibraries() {
   }
 
   const libs = Array.from(mf.maps.libraries.values()).sort(compare)
-  console.log(libs)
+  console.log('libraries', libs.length)
+  const si = files.filter(g=>g.fields.scriptId)
+  console.log('scriptId', si.length, 'no sid', files.length - si.length)
+
   // dump the libraries
   const data = libs
     
